@@ -1,82 +1,203 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <link rel="icon" href="./stone.png" />
+    <link rel="stylesheet" href="./stone.css" />
 
-    <title>Stone.css demo</title>
-    <link rel="stylesheet" href="stone.css">
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="stone.css."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
-    <!--[if lt IE 9]>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-    <![endif]-->
+    <title>stone.css</title>
   </head>
 
   <body>
-    <!-- Here is our main header that is used across all the pages of our website -->
-
     <header>
-      <h1>Header</h1>
-    </header>
-
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-
-       <!-- A Search form is another common non-linear way to navigate through a website. -->
-
-       <form>
-         <input type="search" name="q" placeholder="Search query">
-         <input type="submit" value="Go!">
-       </form>
-     </nav>
-
-    <!-- Here is our page's main content -->
-    <main>
-
-      <!-- It contains an article -->
-      <article>
-        <h2>Article heading</h2>
-
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
-
-        <h3>Subsection</h3>
-
-        <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
-
-        <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
-
-        <h3>Another subsection</h3>
-
-        <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
-
-        <p>Vivamus fermentum semper porta. Nunc diam velit, adipscing ut tristique vitae sagittis vel odio. Maecenas convallis ullamcorper ultricied. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, is fringille sem nunc vet mi.</p>
-      </article>
-
-      <!-- the aside content can also be nested within the main content -->
-      <aside>
-        <h2>Related</h2>
-
+      <nav>
+        <a href="https://github.com/kasuken/stone.css"
+          ><img alt="stone.css" src="./stone.png" height="80"
+        /></a>
         <ul>
-          <li><a href="#">Oh I do like to be beside the seaside</a></li>
-          <li><a href="#">Oh I do like to be beside the sea</a></li>
-          <li><a href="#">Although in the North of England</a></li>
-          <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
+          <li>Home</li>
+          <li>
+            <a href="https://github.com/kasuken/stone.css" target="_blank"
+              >Docs</a
+            >
+          </li>
+          <li>
+            <a href="https://github.com/kasuken/stone.css" target="_blank"
+              >GitHub &nearr;</a
+            >
+          </li>
         </ul>
-      </aside>
+      </nav>
+      <h1>
+        An <u>aseptict</u> and <u>immutable</u> stylesheet for your web
+        application
+      </h1>
+      <p>
+        <b>Nothing to learn, no frameworks,</b> just use HTML semantics tags and
+        <mark>you're done ✅</mark>.
+      </p>
+      <br />
+      <p>
+        <a download="demo.html" href="./mvp.html" target="_blank"
+          ><i>Download the demo file &nearr;</i></a
+        >
+        <a download="stone.css" href="./mvp.css" target="_blank">
+          <b>Download stone.css (6kb) &nearr;</b>
+        </a>
+      </p>
+      <br /><br />
+      <p>
+        <sup>Quick setup</sup> Add this code to your HTML file:<br /><br /><code
+          >&lt;link rel="stylesheet" href="./stone.css"&gt;</code
+        >
+      </p>
+    </header>
+    <main>
+      <hr />
+      <section>
+        <header>
+          <h2>Simple, reusable components</h2>
+          <p>For a clean looking design that doesn't get in the way</p>
+        </header>
+        <aside>
+          <img
+            alt="HTML only"
+            src="https://images.unsplash.com/photo-1542831371-29b0f74f9713?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+          <h3>HTML and You're Done</h3>
+          <p>
+            MVP styles your root HTML elements, so you don't need to learn a new
+            CSS framework or naming conventions.
+          </p>
+          <p>
+            <a
+              href="https://www.w3schools.com/TAGS/ref_byfunc.asp"
+              target="_blank"
+              ><em>HTML Guide &nearr;</em></a
+            >
+          </p>
+        </aside>
+        <aside>
+          <img
+            alt="Mobile friendly"
+            src="https://images.unsplash.com/photo-1623354582128-d8e232a8649e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+          />
+          <h3>Mobile-friendly UI</h3>
+          <p>
+            MVP is designed to look great on all browsers and devices out of the
+            box for rapid prototyping.
+          </p>
+          <p>
+            It's like an amped up CSS reset that you can toss into any project
+            to get decent styling.
+          </p>
+        </aside>
+        <aside>
+          <img
+            alt="MIT license"
+            src="https://images.unsplash.com/photo-1562412692-26406e1bf600?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+          />
+          <h3>MIT License</h3>
+          <p>
+            MVP is released under the permissive MIT license so you can freely
+            use it however you'd like.
+          </p>
+          <p>
+            That means personal projects, commercial ventures, remixes and more
+            are all welcome.
+          </p>
+        </aside>
+      </section>
+      <hr />
+      <section id="testimonials">
+        <blockquote>
+          <img
+            alt="Quote"
+            src="https://images.unsplash.com/photo-1558630926-dd2956629b42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+            height="80"
+          /><br />
+          "Simplicity is a difficult thing to achieve."
+          <footer><br /><i>- Charlie Chaplin</i></footer>
+        </blockquote>
+      </section>
+      <hr />
+      <section id="features">
+        <header>
+          <h2>Table looks awesome</h2>
+          <p>the table are always a pain for a designer, but not for us</p>
+        </header>
 
+        <table>
+          <thead>
+            <tr>
+              <th>Company</th>
+              <th>Contact</th>
+              <th>Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alfreds Futterkiste</td>
+              <td>Maria Anders</td>
+              <td>Germany</td>
+            </tr>
+            <tr>
+              <td>Centro comercial Moctezuma</td>
+              <td>Francisco Chang</td>
+              <td>Mexico</td>
+            </tr>
+            <tr>
+              <td>Ernst Handel</td>
+              <td>Roland Mendel</td>
+              <td>Austria</td>
+            </tr>
+            <tr>
+              <td>Island Trading</td>
+              <td>Helen Bennett</td>
+              <td>UK</td>
+            </tr>
+            <tr>
+              <td>Laughing Bacchus Winecellars</td>
+              <td>Yoshi Tannamuri</td>
+              <td>Canada</td>
+            </tr>
+            <tr>
+              <td>Magazzini Alimentari Riuniti</td>
+              <td>Giovanni Rovelli</td>
+              <td>Italy</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <hr />
+      <div id="figure">
+        <header>
+          <h2>Unleash the power of your PoC</h2>
+          <p>5 minutes and your web application takes the flight</p>
+        </header>
+        <figure>
+          <img
+            alt="Tesla"
+            src="https://images.unsplash.com/photo-1560958089-b8a1929cea89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80"
+          />
+          <figcaption><i>"Testa X" - not only a car</i></figcaption>
+        </figure>
+      </div>
+      <hr />
     </main>
-
-    <!-- And here is our main footer that is used across all the pages of our website -->
-
     <footer>
-      <p>©Copyright 2050 by nobody. All rights reversed.</p>
+      <p>
+        Made by
+        <a href="https://www.emanuelebartolesi.com" target="_blank"
+          >Emanuele Bartolesi &nearr;</a
+        ><br />
+      </p>
     </footer>
-
   </body>
 </html>
