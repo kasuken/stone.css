@@ -1,4 +1,4 @@
-# stone.css
+# stone.css - a PoC with style in less than 30 seconds
 CSS styles for HTML elements for your next Proof of Concept project
 
 
