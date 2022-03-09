@@ -26,22 +26,13 @@
   --width-page: 1080px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-primary: #0097fc;
-    --color-primary-accent: #0097fc4f;
-    --color-primary-bg: #333;
-    --color-bg-secondary: #555;
-    --color-link: #0097fc;
-    --color-secondary: #e20de9;
-    --color-secondary-accent: #e20de94f;
-    --color-shadow: #bbbbbb20;
-    --color-table: #0097fc;
-    --color-primary-text: #f7f7f7;
-    --color-text-secondary: #aaa;
-  }
+.dark{
+  background: #121212;
+  filter: invert(1) hue-rotate(180deg);
 }
-
+.dark iframe,.dark img,.dark html {
+  filter: invert(1) hue-rotate(180deg) brightness(105%) contrast(105%);
+  }
 body {
   background: var(--color-primary-bg);
   color: var(--color-primary-text);

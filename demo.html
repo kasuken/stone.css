@@ -32,6 +32,9 @@
               >GitHub &nearr;</a
             >
           </li>
+          <li>
+            <button type="button" id="themeToggler">Toggle theme</button>
+          </li>
         </ul>
       </nav>
       <h1>
@@ -215,5 +218,11 @@
         ><br />
       </p>
     </footer>
+    
+    <script>
+      document.querySelector("#themeToggler").onclick=()=>{
+        document.querySelector("body").classList.toggle("dark");
+      };
+    </script>
   </body>
 </html>
