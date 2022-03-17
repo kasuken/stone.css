@@ -8,8 +8,13 @@ CSS styles for HTML elements for your next Proof of Concept project
 ![](https://countrush-prod.azurewebsites.net/l/badge/?repository=kasuken.stonecss)
 
 ## dark mode
-To switch to the dark mode manually, uncomment the section in the css file.
-If you want to switch automatically, uncomment the css section and switch to dark theme on your OS.
+To switch to dark mode, toggle body class to 'dark'.
+e.g. using javascript:
+```
+document.querySelector("#themeToggler").onclick=()=>{
+  document.querySelector("body").classList.toggle("dark");
+};
+```
 
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/2757486/156436683-2378256d-8943-426e-9546-fa83ad297009.png)
