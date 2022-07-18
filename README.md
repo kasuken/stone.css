@@ -16,6 +16,9 @@ document.querySelector("#themeToggler").onclick=()=>{
 };
 ```
 
+## Demo
+You can find a working demo here: https://kasuken.github.io/stone.css/
+
 ## Screenshot
 ![image](https://user-images.githubusercontent.com/2757486/156436683-2378256d-8943-426e-9546-fa83ad297009.png)
 
